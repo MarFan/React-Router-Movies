@@ -6,6 +6,7 @@ body {
 }
 
 .movie-card {
+  width: 75%;
   background-color: #fff;
   border: 0;
   box-shadow: 0 -1px 0 #e0e0e0, 0 0 2px rgba(0, 0, 0, 0.12),
@@ -14,6 +15,14 @@ body {
   cursor: pointer;
   position: relative;
   margin: 1rem auto;
+  display: block;
+  text-decoration: none;
+  color: black;
+}
+
+.movie-card:hover {background-color: #eee;}
+.movie-card:hover h2{
+  text-decoration: underline;
 }
 
 .movie-director {
@@ -34,6 +43,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  text-decoration: none;
 }
 
 .saved-list h3 {
@@ -69,4 +79,6 @@ body {
 .home-button {
   padding: 5px 10px;
   background-color: lightskyblue;
+  text-decoration: none;
+  color: #fff;
 }
